@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Login() {
   return (
-    <div>Login11</div>
+    <div>Login</div>
   )
 }
