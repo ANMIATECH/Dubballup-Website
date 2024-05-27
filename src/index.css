@@ -29,3 +29,20 @@
    
     animation: flip 4s ease-in-out infinite;
   }
+  @media (min-width: 1536px) {
+    .divAfter {
+      /* Apply styles for 2xl and larger screens */
+      position: relative;
+    }
+    .divAfter::after {
+      /* Apply the pseudo-element for 2xl and larger screens */
+      content: '';
+      background-color: #FFCD29;
+      width: 5px;
+      height: 915px;
+      position: absolute;
+      top: 0;
+      z-index: -1;
+    }
+  }
+  

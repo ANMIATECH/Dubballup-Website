@@ -35,14 +35,14 @@ export default function DoubleDrive() {
   };
 
   return (
-    <div className='mt-20'>
+    <div className='mt-20   divAfter'>
       <h2 className=' m-auto max-w-xl text-4xl text-center font-medium'>
         Double the Drive, Double the Dive, Duballup Now!
       </h2>
       <p className=' font-medium text-[#AFAFAF] text-center my-3'>Connect, Collaborate, and Conquer Your Fitness Goals Together!</p>
       <div className=' py-10 flex  flex-col md:flex-row flex-wrap  gap-7 2xl:gap-10 items-center  justify-center 2xl:justify-between'>
       {images.map((img, index) => (
-        <div key={index} className={`relative ${getImageClass(index)}  overflow-hidden`}>
+        <div key={index} className={`relative ${getImageClass(index)}  overflow-hidden `}>
           <div className={`absolute   mx-[13.5px] bottom-0 ${getImages(index)} `}>
             <h2 >James Faith</h2>
             <div className='flex text-xs font-medium text-white'>

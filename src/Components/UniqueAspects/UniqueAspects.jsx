@@ -7,7 +7,7 @@ export default function UniqueAspects() {
       <h2 className=' font-medium text-4xl m-auto max-w-sm  text-center'>The Unique Aspects of Dubballup</h2>
       {backgroundColors.map((bgColor, index) => (
         <div key={index} className=' md:px-12 xl:px-0  flex flex-col md:flex-row md:justify-around items-center mt-16 gap-7'>
-          <div className=' bg-slate-300'>
+          <div>
             <h3 className='font-medium text-2xl max-w-sm'>Matched to you and your customers.</h3>
             <p className='text-[#757575] max-w-md break-words font-light text-lg'>
               Lorem ipsum dolor sit amet consectetur. Ipsum ut gravida consequat elementum nunc in.
