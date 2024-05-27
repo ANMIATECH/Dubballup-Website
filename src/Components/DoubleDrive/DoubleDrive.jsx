@@ -36,7 +36,7 @@ export default function DoubleDrive() {
 
   return (
     <div className='mt-20'>
-      <h2 className=' m-auto max-w-xl text-4xl text-center '>
+      <h2 className=' m-auto max-w-xl text-4xl text-center font-medium'>
         Double the Drive, Double the Dive, Duballup Now!
       </h2>
       <p className=' font-medium text-[#AFAFAF] text-center my-3'>Connect, Collaborate, and Conquer Your Fitness Goals Together!</p>
