@@ -23,7 +23,7 @@ export default function DoubleDrive() {
 
   const getImageClass = (index) => {
     if (index === 0 || index === 6 || index === 12) {
-      return 'hidden lg:block'; // Hide by default, show on medium and larger screens
+      return 'hidden 2xl:block'; // Hide by default, show on medium and larger screens
     }
     return ''; // Show on all screens
   };
@@ -40,9 +40,9 @@ export default function DoubleDrive() {
         Double the Drive, Double the Dive, Duballup Now!
       </h2>
       <p className=' font-medium text-[#AFAFAF] text-center my-3'>Connect, Collaborate, and Conquer Your Fitness Goals Together!</p>
-      <div className=' py-10 flex  flex-col md:flex-row flex-wrap gap-10 items-center md:justify-between'>
+      <div className=' py-10 flex  flex-col md:flex-row flex-wrap  gap-7 2xl:gap-10 items-center  justify-center 2xl:justify-between'>
       {images.map((img, index) => (
-        <div key={index} className={`relative ${getImageClass(index)} overflow-hidden`}>
+        <div key={index} className={`relative ${getImageClass(index)}  overflow-hidden`}>
           <div className={`absolute   mx-[13.5px] bottom-0 ${getImages(index)} `}>
             <h2 >James Faith</h2>
             <div className='flex text-xs font-medium text-white'>
