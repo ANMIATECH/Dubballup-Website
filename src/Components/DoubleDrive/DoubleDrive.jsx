@@ -35,16 +35,17 @@ export default function DoubleDrive() {
   };
 
   return (
-    <div className=''>
-      <h2 className=' m-auto max-w-xl text-4xl text-center mt-6  '>
+    <div className='mt-20'>
+      <h2 className=' m-auto max-w-xl text-4xl text-center '>
         Double the Drive, Double the Dive, Duballup Now!
       </h2>
+      <p className=' font-medium text-[#AFAFAF] text-center my-3'>Connect, Collaborate, and Conquer Your Fitness Goals Together!</p>
       <div className=' py-10 flex  flex-col md:flex-row flex-wrap gap-10 items-center md:justify-between'>
       {images.map((img, index) => (
-        <div key={index} className={`relative ${getImageClass(index)} overflow-hidden `}>
-          <div className={`absolute bottom-0  w-fit px-1 ${getImages(index)}`}>
+        <div key={index} className={`relative ${getImageClass(index)} overflow-hidden`}>
+          <div className={`absolute   mx-[13.5px] bottom-0 ${getImages(index)} `}>
             <h2 >James Faith</h2>
-            <div className='flex text-xs font-medium text-white '>
+            <div className='flex text-xs font-medium text-white'>
               <p className='border-r-2 border-[#AFAFAF] flex items-center pe-1'>
                 <img src={icon} alt="icon" />3 miles from you
               </p>

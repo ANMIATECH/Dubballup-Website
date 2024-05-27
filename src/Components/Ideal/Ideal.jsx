@@ -6,7 +6,7 @@ import Cart from '../Cart/Cart'
 export default function Ideal() {
     return (
         <div>
-            <div className='mt-10 flex justify-center'>
+            <div className='mt-20 flex justify-center'>
                 <button className=' bg-white text-[#383838]  font-medium border flex items-center text-lg py-1 px-1 rounded-md'><img src={icon} alt="icon" className='me-2' />Audience</button>
             </div>
             <h2 className='m-auto max-w-sm text-4xl text-center mt-6'>Ideal for everyone, but especially for </h2>
