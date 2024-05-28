@@ -1,8 +1,8 @@
 import React from 'react'
 import { IoLogoApple } from "react-icons/io5";
 import { FaGooglePlay } from "react-icons/fa";
-import logo from '../../assets/Group 1200 (5).svg'
-import icon from '../../assets/Group 1200 (6).svg'
+import icon from "../../assets/Group 1200 (3).svg";
+import logo from "../../assets/Group 1200(1).svg"
 import twitter from '../../assets/twitter.svg'
 import discord from '../../assets/discord.svg'
 
@@ -27,7 +27,7 @@ export default function Footer() {
         <div className=' mt-16 xl:my-0 xl:pt-[225px]  bg-[#FFCD29]'>
           <div className='flex flex-col md:flex-row py-16 m-auto max-w-7xl md:gap-8 ps-10 md:pe-10 xl:px-0 md:justify-between'>
             <div>
-              <a href="/" className=" rotating-image-container flex items-center relative">
+              <a href="/" className=" bg-[#6C3B91] rotating-image-container flex items-center relative w-fit  py-4 px-4 rounded-xl">
                 <div className=' absolute left-[70px]'><img src={icon} className="logo" alt="Logo" /></div>
                 <div ><img src={logo} alt="icon" /></div>
               </a>
