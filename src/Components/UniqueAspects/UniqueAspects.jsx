@@ -6,7 +6,7 @@ export default function UniqueAspects() {
     <div className='mt-20'>
       <h2 className=' font-medium text-4xl xl:text-5xl m-auto max-w-lg  text-center'>The Unique Aspects of Dubballup</h2>
       {backgroundColors.map((bgColor, index) => (
-        <div key={index} className='px-8Pa1 md:px-12 xl:px-0  flex flex-col md:flex-row md:justify-around items-center mt-16 gap-7'>
+        <div key={index} className='px-8 md:px-12 xl:px-0  flex flex-col md:flex-row md:justify-around items-center mt-16 gap-7'>
           <div>
             <h3 className='font-medium text-2xl xl:text-3xl max-w-sm '>Matched to you and your customers.</h3>
             <p className='text-[#757575] max-w-md break-words font-light text-lg'>

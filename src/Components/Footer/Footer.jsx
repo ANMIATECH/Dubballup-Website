@@ -11,9 +11,9 @@ export default function Footer() {
     <div className='mt-20'>
       <div className=''>
 
-        <div className='w-full  lg:h-[225px] bg-white lg:relative '>
+        <div className='w-full  xl:h-[225px] bg-white xl:relative '>
           <div className=' m-auto max-w-7xl text-white text-center  py-20 rounded-lg shadow-lg   bg-[#6C3B91]'>
-            <h3 className=' text-5xl text-center max-w-4xl  m-auto  font-semibold'>Ready to take your fitness journey to the next level?</h3>
+            <h3 className=' text-4xl xl:text-5xl text-center max-w-4xl  m-auto  font-semibold'>Ready to take your fitness journey to the next level?</h3>
             <p className=' py-6 font-medium text-[17px] text-center break-words'>Lorem ipsum dolor sit amet consectetur.</p>
             <div className='flex space-x-6 mt-16  justify-center me-10 lg:me-0'>
               <button className='bg-white flex items-center text-black px-3 py-1 rounded-lg'><IoLogoApple className=' text-3xl me-2' /> <p><p className='text-left font-medium text-sm'>Download on the <span className=' sm:block text-left font-medium text-lg'>App store</span></p></p></button>
@@ -24,8 +24,8 @@ export default function Footer() {
 
           </div>
         </div>
-        <div className=' my-16 lg:my-0 lg:pt-[225px]  bg-[#FFCD29]'>
-          <div className='flex flex-col md:flex-row py-16 m-auto max-w-7xl justify-between'>
+        <div className=' mt-16 xl:my-0 xl:pt-[225px]  bg-[#FFCD29]'>
+          <div className='flex flex-col md:flex-row py-16 m-auto max-w-7xl md:gap-8 ps-10 md:pe-10 xl:px-0 md:justify-between'>
             <div>
               <a href="/" className=" rotating-image-container flex items-center relative">
                 <div className=' absolute left-[70px]'><img src={icon} className="logo" alt="Logo" /></div>
@@ -37,7 +37,7 @@ export default function Footer() {
                 <img src={discord} alt="discord" />
               </div>
             </div>
-            <div>
+            <div className='py-5 md:py-0'>
               <ul >
                 <li className='font-semibold  text-sm text-[#664D1B]'><h3>Dubballup</h3></li>
                 <li className='text-sm font-medium text-[#997328]'>Resources</li>
@@ -45,7 +45,7 @@ export default function Footer() {
                 <li className='text-sm font-medium text-[#997328]'>Pricing</li>
               </ul>
             </div>
-            <div>
+            <div className='py-5 md:py-0'>
               <ul >
                 <li className='font-semibold  text-sm text-[#664D1B]'><h3>Links</h3></li>
                 <li className='text-sm font-medium text-[#997328]'>Marketplace</li>
@@ -53,21 +53,21 @@ export default function Footer() {
                 <li className='text-sm font-medium text-[#997328]'>Blog</li>
               </ul>
             </div>
-            <div>
+            <div className='py-5 md:py-0'>
               <ul >
                 <li className='font-semibold  text-sm text-[#664D1B]'><h3>Resources</h3></li>
                 <li className='text-sm font-medium text-[#997328]'>Guides</li>
                 <li className='text-sm font-medium text-[#997328]'>Support center</li>
               </ul>
             </div>
-            <div>
+            <div className='py-5 md:py-0'>
               <ul >
                 <li className='font-semibold  text-sm text-[#664D1B]'><h3>Developers</h3></li>
                 <li className='text-sm font-medium text-[#997328]'>Guides</li>
                 <li className='text-sm font-medium text-[#997328]'>API reference</li>
               </ul>
             </div>
-            <div>
+            <div className='py-5 md:py-0'>
               <ul>
                 <li className='font-semibold  text-sm text-[#664D1B]'><h3>Company</h3></li>
                 <li className='text-sm font-medium text-[#997328]'>Careers</li>
