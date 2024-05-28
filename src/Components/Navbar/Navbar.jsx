@@ -11,8 +11,8 @@ export default function Navbar() {
 
  <nav className=" bg-[#450475]  border-gray-200 dark:bg-gray-900">
             <div className="max-w-screen-2xl flex flex-wrap items-center justify-between     mx-auto p-4  md:px-7">
-                <a href="/" className=" rotating-image-container flex items-center space-x-3  rtl:space-x-reverse relative">
-                 <div className=' absolute left-[70px]'><img src={icon} className="logo" alt="Logo"  /></div>
+                <a href="/" className=" rotating-image-container flex items-center  relative">
+                 <div className=' absolute left-[60px]'><img src={icon} className="logo" alt="Logo"  /></div>
                   <div ><img src={logo} alt="icon"  /></div>
                 </a>
                 <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-[#FFCD29]  focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">

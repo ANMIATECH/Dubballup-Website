@@ -4,6 +4,7 @@ import Ideal from '../Ideal/Ideal'
 import DoubleDrive from '../DoubleDrive/DoubleDrive'
 import UniqueAspects from '../UniqueAspects/UniqueAspects'
 import AboutUs from '../AboutUs/AboutUs'
+import Footer from '../Footer/Footer'
 
 export default function Content() {
   return (
@@ -13,6 +14,7 @@ export default function Content() {
         <DoubleDrive/>
         <UniqueAspects/>
         <AboutUs/>
+        <Footer/>
     </div>
   )
 }
