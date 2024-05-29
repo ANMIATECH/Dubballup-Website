@@ -44,7 +44,7 @@ export default function DoubleDrive() {
       {images.map((img, index) => (
         <div key={index} className={`relative ${getImageClass(index)}  overflow-hidden `}>
           <div className={`absolute   mx-[13.5px] bottom-0 ${getImages(index)} `}>
-            <h2 >James Faith</h2>
+            <h2 className='text-white font-bold' >James Faith</h2>
             <div className='flex text-xs font-medium text-white'>
               <p className='border-r-2 border-[#AFAFAF] flex items-center pe-1'>
                 <img src={icon} alt="icon" />3 miles from you
