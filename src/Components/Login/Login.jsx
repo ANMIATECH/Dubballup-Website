@@ -13,10 +13,10 @@ export default function Login() {
 
   return (
     <div>
-      <div className="w-1/3 bg-[#6C3B91] py-14 pl-14 pr-56">
+      <div className="lg:w-1/3 w-full bg-[#6C3B91] py-14 pl-14 pr-56">
         <img src={logo} className="h-8" alt="Dubballup_logo" />
       </div>
-      <div className="w-1/3 px-14 bg-[#F5F7FA] py-8">
+      <div className="lg:w-1/3 w-full px-14 bg-[#F5F7FA] py-8">
         <div>
           <h1 className="text-4xl font-medium pt-5">Log in</h1>
           <p className="text-base font-normal py-2">
@@ -61,7 +61,7 @@ export default function Login() {
           </div>
 
           <div className="mt-4 flex justify-center items-center">
-            <button className="bg-[#FFCD29] px-48 py-3 rounded-3xl text-black font-medium">
+            <button className="bg-[#FFCD29] px-32 md:px-48 py-3 rounded-3xl text-black font-medium">
               Log in
             </button>
           </div>

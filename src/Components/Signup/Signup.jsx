@@ -13,10 +13,10 @@ export default function Signup() {
 
   return (
     <div>
-      <div className="w-1/3 bg-[#6C3B91] py-14 pl-14 pr-56">
+      <div className="lg:w-1/3 w-full bg-[#6C3B91] py-14 pl-14 pr-56">
         <img src={logo} className="h-8" alt="Dubballup_logo" />
       </div>
-      <div className="w-1/3 px-14 bg-[#F5F7FA]  py-3 text-black">
+      <div className="lg:w-1/3 w-full px-14 bg-[#F5F7FA]  py-3 text-black">
         <div>
           <h1 className="text-3xl font-medium pt-5">
             Get started with Dubballup
@@ -90,7 +90,7 @@ export default function Signup() {
             </div>
           </div>
           <div className="mt-4 flex justify-center items-center">
-            <button className="bg-[#FFCD29] px-40 py-3 rounded-full text-black font-medium">
+            <button className="bg-[#FFCD29] px-24 md:px-40 py-3 rounded-full text-black font-medium">
               Create Account
             </button>
           </div>
