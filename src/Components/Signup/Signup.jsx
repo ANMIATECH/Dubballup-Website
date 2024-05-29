@@ -1,7 +1,8 @@
 import { FaApple, FaEye, FaEyeSlash } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
-import logo from "../../assets/login_logo.png";
+import logo from "../../assets/Group 1200(1).svg";
+import icon from "../../assets/Group 6.svg";
 import { useState } from "react";
 
 export default function Signup() {
@@ -14,7 +15,17 @@ export default function Signup() {
   return (
     <div>
       <div className="lg:w-1/3 w-full bg-[#6C3B91] py-14 pl-14 pr-56">
-        <img src={logo} className="h-8" alt="Dubballup_logo" />
+        <a
+          href="/"
+          className=" rotating-image-container flex items-center  relative"
+        >
+          <div className=" absolute left-[60px]">
+            <img src={icon} className="logo" alt="Logo" />
+          </div>
+          <div>
+            <img src={logo} alt="icon" />
+          </div>
+        </a>
       </div>
       <div className="lg:w-1/3 w-full px-14 bg-[#F5F7FA]  py-3 text-black">
         <div>
@@ -90,7 +101,7 @@ export default function Signup() {
             </div>
           </div>
           <div className="mt-4 flex justify-center items-center">
-            <button className="bg-[#FFCD29] px-24 md:px-40 py-3 rounded-full text-black font-medium">
+            <button className="bg-[#FFCD29] px-24 md:px-[140px] py-3 rounded-full text-black font-medium">
               Create Account
             </button>
           </div>
