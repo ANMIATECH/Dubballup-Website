@@ -5,6 +5,7 @@ import logo from "../../assets/Group 1200(1).svg";
 import icon from "../../assets/Group 6.svg";
 import { useState } from "react";
 
+
 export default function Signup() {
   const [showPassword, setShowPassword] = useState(false);
 
