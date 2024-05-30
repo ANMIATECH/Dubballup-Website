@@ -6,6 +6,8 @@ import DubballupWeb from './Components/DubballupWeb/DubballupWeb';
 import Contact from './Components/Contact/Contact';
 import Login from './Components/Login/Login';
 import Signup from './Components/Signup/Signup';
+import Header from './Components/Header/Header';
+import Content from './Components/Content/Content';
 
 export default function App() {
   let routes = createBrowserRouter([
@@ -16,7 +18,7 @@ export default function App() {
         {
           index: true,
           element: (
-          <About/>
+         <Content/>
           ),
         },
         {
