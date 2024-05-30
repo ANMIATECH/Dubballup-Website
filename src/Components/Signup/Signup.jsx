@@ -20,7 +20,7 @@ export default function Signup() {
           className=" rotating-image-container flex items-center  relative"
         >
           <div className=" absolute left-[60px]">
-            <img src={icon} className="logo" alt="Logo for Dubballup" />
+            <img src={icon} className="logo" alt="Logo for Dubballup logo" />
           </div>
           <div>
             <img src={logo} alt="icon" />
